@@ -1,7 +1,13 @@
+:root{
+    --teste: rgb(21 128 61);
+    --teste-dois: rgb(34 197 94);
+    --teste-tres: rgb(134 239 172);
+}
+
 /*Cabeçalho*/
 
 .wrapper{
-    background-color: rgb(134 239 172);;
+    background-color: var(--teste-tres);
     padding: 1rem;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
@@ -12,7 +18,7 @@
 }
 
 .menu{
-    background-color: rgb(34 197 94);
+    background-color: var(--teste-dois);
     padding: 1rem;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     text-align: center;
@@ -33,7 +39,7 @@
 
 /*Footer*/
 .footer{
-    background-color: rgb(21 128 61);
+    background-color: var(--teste);
     font-size: 20px;
     font-weight: bold;
     color: white;
